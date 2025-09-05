@@ -1,0 +1,64 @@
+# HTTrack Pro - Advanced Site Cloner GUI
+# Requirements file for Python dependencies
+
+# Core GUI Framework (usually included with Python)
+# tkinter - Built into Python standard library
+
+# Configuration Management
+configparser>=5.0.0
+
+# Standard Library Dependencies (included with Python 3.9+)
+# These are listed for completeness but don't need installation
+# pathlib - Built into Python 3.4+
+# subprocess - Built into Python standard library
+# threading - Built into Python standard library  
+# queue - Built into Python standard library
+# urllib.parse - Built into Python standard library
+# json - Built into Python standard library
+# re - Built into Python standard library
+# time - Built into Python standard library
+# datetime - Built into Python standard library
+# os - Built into Python standard library
+# sys - Built into Python standard library
+# shlex - Built into Python standard library
+
+# Optional Dependencies for Enhanced Features
+# These are not required but can improve functionality
+
+# For better file handling (optional)
+# pathlib2>=2.3.0; python_version<"3.4"
+
+# For enhanced clipboard operations (optional)
+# pyperclip>=1.8.0
+
+# For system notifications (optional)  
+# plyer>=2.0.0
+
+# For better cross-platform file operations (optional)
+# send2trash>=1.8.0
+
+# Development Dependencies (only needed for development)
+# pylint>=2.0.0
+# black>=22.0.0
+# mypy>=0.900
+
+# Platform-specific notes:
+# 
+# Windows:
+# - No additional dependencies required
+# - WinHTTrack should be installed separately
+#
+# macOS:
+# - HTTrack can be installed via: brew install httrack
+# - All Python dependencies work out of the box
+#
+# Linux:
+# - HTTrack can be installed via package manager:
+#   Ubuntu/Debian: sudo apt install httrack  
+#   CentOS/RHEL: sudo yum install httrack
+#   Fedora: sudo dnf install httrack
+# - python3-tk may need to be installed separately:
+#   Ubuntu/Debian: sudo apt install python3-tk
+
+# Minimum Python Version: 3.9+
+# Tested with Python versions: 3.9, 3.10, 3.11, 3.12
